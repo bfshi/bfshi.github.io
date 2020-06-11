@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>**Baifeng Shi** | Baifeng Shi</title>
-    <link>https://bfshi.github.io/authors/baifeng-shi/</link>
-      <atom:link href="https://bfshi.github.io/authors/baifeng-shi/index.xml" rel="self" type="application/rss+xml" />
-    <description>**Baifeng Shi**</description>
+    <title>Huijuan Xu | Baifeng Shi</title>
+    <link>https://bfshi.github.io/authors/huijuan-xu/</link>
+      <atom:link href="https://bfshi.github.io/authors/huijuan-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Huijuan Xu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 12:41:37 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>**Baifeng Shi**</title>
-      <link>https://bfshi.github.io/authors/baifeng-shi/</link>
+      <title>Huijuan Xu</title>
+      <link>https://bfshi.github.io/authors/huijuan-xu/</link>
     </image>
     
     <item>
@@ -25,22 +25,6 @@
       <link>https://bfshi.github.io/publication/eccv2020/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:20 +0800</pubDate>
       <guid>https://bfshi.github.io/publication/eccv2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</title>
-      <link>https://bfshi.github.io/publication/icml2020_infodrop/</link>
-      <pubDate>Thu, 11 Jun 2020 12:41:00 +0800</pubDate>
-      <guid>https://bfshi.github.io/publication/icml2020_infodrop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weakly-Supervised Action Localization by Generative Attention Modeling</title>
-      <link>https://bfshi.github.io/publication/cvpr2020_dgam/</link>
-      <pubDate>Mon, 24 Feb 2020 18:04:39 +0800</pubDate>
-      <guid>https://bfshi.github.io/publication/cvpr2020_dgam/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,36 @@
     <link>https://bfshi.github.io/</link>
       <atom:link href="https://bfshi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Baifeng Shi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2020 18:04:39 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 12:41:37 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Baifeng Shi</title>
       <link>https://bfshi.github.io/</link>
     </image>
+    
+    <item>
+      <title>Auxiliary Task Reweighting for Minimum-data Learning</title>
+      <link>https://bfshi.github.io/publication/nips2020_multitask/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:37 +0800</pubDate>
+      <guid>https://bfshi.github.io/publication/nips2020_multitask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning</title>
+      <link>https://bfshi.github.io/publication/eccv2020/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:20 +0800</pubDate>
+      <guid>https://bfshi.github.io/publication/eccv2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</title>
+      <link>https://bfshi.github.io/publication/icml2020_infodrop/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:00 +0800</pubDate>
+      <guid>https://bfshi.github.io/publication/icml2020_infodrop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Weakly-Supervised Action Localization by Generative Attention Modeling</title>

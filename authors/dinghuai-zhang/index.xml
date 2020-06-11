@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jingdong Wang | Baifeng Shi</title>
-    <link>https://bfshi.github.io/authors/jingdong-wang/</link>
-      <atom:link href="https://bfshi.github.io/authors/jingdong-wang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jingdong Wang</description>
+    <title>Dinghuai Zhang$^*$ | Baifeng Shi</title>
+    <link>https://bfshi.github.io/authors/dinghuai-zhang/</link>
+      <atom:link href="https://bfshi.github.io/authors/dinghuai-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dinghuai Zhang$^*$</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 12:41:00 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Jingdong Wang</title>
-      <link>https://bfshi.github.io/authors/jingdong-wang/</link>
+      <title>Dinghuai Zhang$^*$</title>
+      <link>https://bfshi.github.io/authors/dinghuai-zhang/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://bfshi.github.io/publication/icml2020_infodrop/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:00 +0800</pubDate>
       <guid>https://bfshi.github.io/publication/icml2020_infodrop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weakly-Supervised Action Localization by Generative Attention Modeling</title>
-      <link>https://bfshi.github.io/publication/cvpr2020_dgam/</link>
-      <pubDate>Mon, 24 Feb 2020 18:04:39 +0800</pubDate>
-      <guid>https://bfshi.github.io/publication/cvpr2020_dgam/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>https://bfshi.github.io/authors/yadong-mu/</link>
       <atom:link href="https://bfshi.github.io/authors/yadong-mu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yadong Mu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2020 18:04:39 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 12:41:00 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Yadong Mu</title>
       <link>https://bfshi.github.io/authors/yadong-mu/</link>
     </image>
+    
+    <item>
+      <title>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</title>
+      <link>https://bfshi.github.io/publication/icml2020_infodrop/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:00 +0800</pubDate>
+      <guid>https://bfshi.github.io/publication/icml2020_infodrop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Weakly-Supervised Action Localization by Generative Attention Modeling</title>
