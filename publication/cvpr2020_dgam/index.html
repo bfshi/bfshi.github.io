@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="summary">
+  <meta name="description" content="Regular weakly-supervised action localization methods mostly follows the &#34;localizing by classifying&#34; paradigm, which results in the **action-context confusion** issue: context frames near action clips tend to be recognized as action frames themselves. With the observation that the context exhibits notable difference from the action at **representation level**, a probabilistic model is learned to model the **class-agnostic likelihood** of each frame given the attention. By maximizing the conditional probability, we obtain the **MAP estimation** of the attention.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://bfshi.github.io/publication/cvpr2020_dgam/">
@@ -226,16 +226,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Baifeng Shi">
   <meta property="og:url" content="https://bfshi.github.io/publication/cvpr2020_dgam/">
   <meta property="og:title" content="Weakly-Supervised Action Localization by Generative Attention Modeling | Baifeng Shi">
-  <meta property="og:description" content="summary"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
-  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Regular weakly-supervised action localization methods mostly follows the &#34;localizing by classifying&#34; paradigm, which results in the **action-context confusion** issue: context frames near action clips tend to be recognized as action frames themselves. With the observation that the context exhibits notable difference from the action at **representation level**, a probabilistic model is learned to model the **class-agnostic likelihood** of each frame given the attention. By maximizing the conditional probability, we obtain the **MAP estimation** of the attention."><meta property="og:image" content="https://bfshi.github.io/publication/cvpr2020_dgam/featured.png">
+  <meta property="twitter:image" content="https://bfshi.github.io/publication/cvpr2020_dgam/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-02-24T18:04:39&#43;08:00">
@@ -266,6 +265,10 @@
   },
   "headline": "Weakly-Supervised Action Localization by Generative Attention Modeling",
   
+  "image": [
+    "https://bfshi.github.io/publication/cvpr2020_dgam/featured.png"
+  ],
+  
   "datePublished": "2020-02-24T18:04:39+08:00",
   "dateModified": "2020-02-24T18:04:39+08:00",
   
@@ -282,7 +285,7 @@
       "url": "https://bfshi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "summary"
+  "description": "Regular weakly-supervised action localization methods mostly follows the \"localizing by classifying\" paradigm, which results in the **action-context confusion** issue: context frames near action clips tend to be recognized as action frames themselves. With the observation that the context exhibits notable difference from the action at **representation level**, a probabilistic model is learned to model the **class-agnostic likelihood** of each frame given the attention. By maximizing the conditional probability, we obtain the **MAP estimation** of the attention."
 }
 </script>
 
@@ -476,18 +479,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Weakly-Supervised Action Localization by Generative Attention Modeling</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -531,7 +542,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -593,7 +604,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 385px;">
+  <div style="position: relative">
+    <img src="/publication/cvpr2020_dgam/featured_huae5acd4b7ecad5f743ebc4ba8442c4f9_189605_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -602,7 +620,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Weakly-supervised temporal action localization is a problem of learning an action localization model with only video-level action labeling available. The general framework largely relies on the classification activation, which employs an attention model to identify the action-related frames and then categorizes them into different classes. Such method results in the action-context confusion issue: context frames near action clips tend to be recognized as action frames themselves, since they are closely related to the specific classes. To solve the problem, in this paper we propose to model the class-agnostic frame-wise probability conditioned on the frame attention using conditional Variational Auto-Encoder (VAE). With the observation that the context exhibits notable difference from the action at representation level, a probabilistic model, i.e., conditional VAE, is learned to model the likelihood of each frame given the attention. By maximizing the conditional probability with respect to the attention, the action and non-action frames are well separated. Experiments on THUMOS14 and ActivityNet1.2 demonstrate advantage of our method and effectiveness in handling action-context confusion problem. Code is now available on GitHub.</p>
+    <p class="pub-abstract">Regular weakly-supervised action localization methods mostly follows the &ldquo;localizing by classifying&rdquo; paradigm, which results in the <strong>action-context confusion</strong> issue: context frames near action clips tend to be recognized as action frames themselves. With the observation that the context exhibits notable difference from the action at <strong>representation level</strong>, a probabilistic model is learned to model the <strong>class-agnostic likelihood</strong> of each frame given the attention. By maximizing the conditional probability, we obtain the <strong>MAP estimation</strong> of the attention.</p>
     
 
     
