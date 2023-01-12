@@ -21,10 +21,10 @@
         <p style="text-align:center">
           <name>Baifeng Shi</name>
         </p>
-        <p>I am a first-year Ph.D. student advised by Prof. <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> at <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>. Previously, I graduated from Peking University with a B.S. degree in computer science. I’ve had the fortune to work with Prof. <a href="http://www.muyadong.com/index.html">Yadong Mu</a>  at Peking University, and with Dr. <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a> and Dr. <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a> at Microsoft Research Asia.
+        <p>I am a Ph.D. student advised by Prof. <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> at <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>. Previously, I graduated from Peking University with a B.S. degree in computer science. I’ve had the fortune to work with Prof. <a href="http://www.muyadong.com/index.html">Yadong Mu</a>  at Peking University, and with Dr. <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a> and Dr. <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a> at Microsoft Research Asia.
         </p>
         <p>
-          My primary interests lie in how to formulate the process of visual perception on both the (top-down) conceptual and (bottom-up) computational level, with the goal of learning with minimal labels (e.g. weak/self supervision) and making robust decisions across environments and tasks (e.g. domain generalization, multi-task) like a human being.
+          My primary interests lie in how to formulate the process of visual perception on both conceptual and computational levels, with the goal of learning with minimal labels (e.g. weak/self supervision) and making robust decisions across environments and tasks (e.g. domain generalization, multi-task) like a human being.
         </p>
         <p style="text-align:center">
           <a href="mailto:baifeng_shi@berkeley.edu">Email</a> &nbsp/&nbsp
@@ -51,12 +51,32 @@
 
     <tr>
       <td style="padding:20px;width:40%;vertical-align:middle">
+        <img src='images/TD-Att.png' width="100%">
+      </td>
+      <td style="padding:20px;width:60%;vertical-align:middle">
+        <papertitle><strong>Top-Down Attention from Analysis by Synthesis</strong></papertitle>
+        <br>
+        <em>Baifeng Shi</em>,
+        <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
+        <a href="https://xinw.ai/">Xin Wang</a>
+        <br>
+        <em>in submission</em>, 2022
+        <br>
+        <a href="javascript:toggleblock('TD-Att_abs')">abstract</a>
+
+        <p align="justify"> <i id="TD-Att_abs">Stimulus-driven bottom-up attention (e.g., self-attention) has been widely adopted in vision transformer models. Top-down attention, which conversely adjusts the attention to different objects or regions given a high-level top-down goal, is appealing but lacked a principled design. In this paper, we consider top-down attention from a classic Analysis-by-Synthesis (AbS) perspective of vision. Prior work has demonstrated a functional equivalence between visual attention and sparse reconstruction; we show that an AbS visual system optimizes a similar sparse reconstruction objective that is modulated by a goal-directed top-down signal, thus naturally simulating top-down attention. Our proposed Analysis-by-Synthesis Vision Transformer (AbSViT) is a top-down modulated ViT model that variationally approximates AbS, and achieves controllable top-down attention. For real-world applications, AbSViT consistently improves over baselines on Vision-Language tasks such as VQA and zero-shot retrieval where language guides the top-down attention. AbSViT can also improve ImageNet classification and model robustness where no specific guidance is available.</i></p>
+        <p></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;width:40%;vertical-align:middle">
         <img src='images/VARS.png' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle>Visual Attention Emerges from Recurrent Sparse Reconstruction</papertitle>
+        <papertitle><strong>Visual Attention Emerges from Recurrent Sparse Reconstruction</strong></papertitle>
         <br>
-        <strong>Baifeng Shi</strong>,
+        <em>Baifeng Shi</em>,
         <a href="http://people.csail.mit.edu/yalesong/home/">Yale Song</a>,
         <a href="https://neelj.com/">Neel Joshi</a>,
         <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
@@ -78,9 +98,9 @@
         <img src='images/ICCV2021_SSAD_OSAD.jpg' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle>Temporal Action Detection with Multi-level Supervision</papertitle>
+        <papertitle><strong>Temporal Action Detection with Multi-level Supervision</strong></papertitle>
         <br>
-        <strong>Baifeng Shi</strong>,
+        <em>Baifeng Shi</em>,
         <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a>,
         <a href="https://www.cc.gatech.edu/~judy/">Judy Hoffman</a>,
         <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>,
@@ -103,9 +123,9 @@
         <img src='images/NeurIPS2020_ARML.png' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle>Auxiliary Task Reweighting for Minimum-data Learning</papertitle>
+        <papertitle><strong>Auxiliary Task Reweighting for Minimum-data Learning</strong></papertitle>
         <br>
-        <strong>Baifeng Shi</strong>,
+        <em>Baifeng Shi</em>,
         <a href="https://www.cc.gatech.edu/~judy/">Judy Hoffman</a>,
         <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>,
         <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
@@ -130,12 +150,12 @@
         <img src='images/ECCV2020.png' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle>Weakly-supervised Action Localization with Expectation-Maximization Multi-instance Learning</papertitle>
+        <papertitle><strong>Weakly-supervised Action Localization with Expectation-Maximization Multi-instance Learning</strong></papertitle>
         <br>
 
         <a href="https://scholar.google.com/citations?user=kqVZxpYAAAAJ&hl=en">Zhekun Luo</a>,
         <a href="https://www.devinguillory.com/">Devin Guillory</a>,
-        <strong>Baifeng Shi</strong>,
+        <em>Baifeng Shi</em>,
         <a href="https://scholar.google.com/citations?hl=zh-CN&user=BENt-uEAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate">Wei Ke</a>,
         <a href="https://scholar.google.com/citations?hl=zh-CN&user=0IKavloAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate">Fang Wan</a>,
         <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
@@ -153,9 +173,9 @@
         <img src='images/ICML2020_InfoDrop.jpg' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</papertitle>
+        <papertitle><strong>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</strong></papertitle>
         <br>
-        <strong>Baifeng Shi*</strong>,
+        <em>Baifeng Shi</em>,
         <a href="https://zdhnarsil.github.io/">Dinghuai Zhang*</a>,
         <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a>,
         <a href="https://scholar.google.co.uk/citations?user=a2sHceIAAAAJ&hl=en">Zhanxing Zhu</a>,
@@ -180,9 +200,9 @@
         <img src='images/CVPR2020_DGAM.png' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle>Weakly-supervised Action Localization by Generative Attention Modeling</papertitle>
+        <papertitle><strong>Weakly-supervised Action Localization by Generative Attention Modeling</strong></papertitle>
         <br>
-        <strong>Baifeng Shi</strong>,
+        <em>Baifeng Shi</em>,
         <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a>,
         <a href="http://www.muyadong.com/index.html">Yadong Mu</a>,
         <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a>,
