@@ -49,22 +49,27 @@
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
     <tr>
       <td style="padding:20px;width:40%;vertical-align:middle">
         <img src='images/TD-Att.png' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle><strong>Top-Down Attention from Analysis by Synthesis</strong></papertitle>
+        <papertitle><strong>Top-Down Visual Attention from Analysis by Synthesis</strong></papertitle>
         <br>
         <em>Baifeng Shi</em>,
         <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
         <a href="https://xinw.ai/">Xin Wang</a>
         <br>
-        <em>in submission</em>, 2022
+        <em>CVPR</em>, 2023
         <br>
-        <a href="javascript:toggleblock('TD-Att_abs')">abstract</a>
+        <a href="https://bfshi.github.io">website</a> /
+        <a href="javascript:toggleblock('AbSViT_abs')">abstract</a> /
+        <a href="https://bfshi.github.io">pdf</a> /
+        <a href="https://github.com/bfshi/AbSViT">code</a>
 
-        <p align="justify"> <i id="TD-Att_abs">Stimulus-driven bottom-up attention (e.g., self-attention) has been widely adopted in vision transformer models. Top-down attention, which conversely adjusts the attention to different objects or regions given a high-level top-down goal, is appealing but lacked a principled design. In this paper, we consider top-down attention from a classic Analysis-by-Synthesis (AbS) perspective of vision. Prior work has demonstrated a functional equivalence between visual attention and sparse reconstruction; we show that an AbS visual system optimizes a similar sparse reconstruction objective that is modulated by a goal-directed top-down signal, thus naturally simulating top-down attention. Our proposed Analysis-by-Synthesis Vision Transformer (AbSViT) is a top-down modulated ViT model that variationally approximates AbS, and achieves controllable top-down attention. For real-world applications, AbSViT consistently improves over baselines on Vision-Language tasks such as VQA and zero-shot retrieval where language guides the top-down attention. AbSViT can also improve ImageNet classification and model robustness where no specific guidance is available.</i></p>
+
+        <p align="justify"> <i id="AbSViT_abs">Stimulus-driven bottom-up attention (e.g., self-attention) has been widely adopted in vision transformer models. Top-down attention, which conversely adjusts the attention to different objects or regions given a high-level top-down goal, is appealing but lacked a principled design. In this paper, we consider top-down attention from a classic Analysis-by-Synthesis (AbS) perspective of vision. Prior work has demonstrated a functional equivalence between visual attention and sparse reconstruction; we show that an AbS visual system optimizes a similar sparse reconstruction objective that is modulated by a goal-directed top-down signal, thus naturally simulating top-down attention. Our proposed Analysis-by-Synthesis Vision Transformer (AbSViT) is a top-down modulated ViT model that variationally approximates AbS, and achieves controllable top-down attention. For real-world applications, AbSViT consistently improves over baselines on Vision-Language tasks such as VQA and zero-shot retrieval where language guides the top-down attention. AbSViT can also improve ImageNet classification and model robustness where no specific guidance is available.</i></p>
         <p></p>
       </td>
     </tr>
@@ -284,7 +289,7 @@
         <br>
         <p style="text-align:right;font-size:small;">
           I stole the template from <a href="https://yijiaweng.github.io/">Yijia Weng</a>.
-          <br> Last updated: Apr 26, 2022
+          <br> Last updated: Mar 11, 2023
         </p>
       </td>
     </tr>
@@ -293,6 +298,9 @@
 </tr>
 </table>
 
+<script xml:space="preserve" language="JavaScript">
+hideblock('AbSViT_abs');
+</script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('VARS_abs');
 </script>
