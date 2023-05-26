@@ -24,7 +24,7 @@
         <p>I am a Ph.D. student advised by Prof. <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> at <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>. Previously, I graduated from Peking University with a B.S. degree in computer science. I’ve had the fortune to work with Prof. <a href="http://www.muyadong.com/index.html">Yadong Mu</a>  at Peking University, and with Dr. <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a> and Dr. <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a> at Microsoft Research Asia.
         </p>
         <p>
-          My primary interests lie in how to formulate the process of visual perception on both conceptual and computational levels, with the goal of learning with minimal labels (e.g. weak/self supervision) and making robust decisions across environments and tasks (e.g. domain generalization, multi-task) like a human being.
+          I am interested in building a vision model that enables an agent to adapt to any task, any environment, with little or no supervision.
         </p>
         <p style="text-align:center">
           <a href="mailto:baifeng_shi@berkeley.edu">Email</a> &nbsp/&nbsp
@@ -52,6 +52,31 @@
 
     <tr>
       <td style="padding:20px;width:40%;vertical-align:middle">
+        <center><img src='images/TOAST.png' width="90%"></center>
+      </td>
+      <td style="padding:20px;width:60%;vertical-align:middle">
+        <papertitle><strong>Refocusing Is Key to Transfer Learning</strong></papertitle>
+        <br>
+        <em>Baifeng Shi</em>,
+        <a href="https://github.com/Catherine0505">Siyu Gai</a>,
+        <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
+        <a href="https://xinw.ai/">Xin Wang</a>
+        <br>
+        <em>preprint</em>, 2023
+        <br>
+        <a href="javascript:toggleblock('TOAST_abs')">abstract</a> /
+        <a href="https://arxiv.org/pdf/2305.15542.pdf">pdf</a> /
+        <a href="https://github.com/bfshi/TOAST">code</a> /
+        <a href="https://zhuanlan.zhihu.com/p/632301499">知乎</a>
+
+
+        <p align="justify"> <i id="TOAST_abs">We find that previous transfer learning methods (e.g., fine-tuning, LoRA, prompt tuning) fail to focus the model's attention on the features relevant to the downstream tasks. We show that by refocusing the model's attention on task-relevant features can largely improve the downstream performances.</i></p>
+        <p></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;width:40%;vertical-align:middle">
         <img src='images/TD-Att.png' width="100%">
       </td>
       <td style="padding:20px;width:60%;vertical-align:middle">
@@ -68,7 +93,8 @@
         <a href="https://sites.google.com/view/absvit">website</a> /
         <a href="javascript:toggleblock('AbSViT_abs')">abstract</a> /
         <a href="https://arxiv.org/pdf/2303.13043.pdf">pdf</a> /
-        <a href="https://github.com/bfshi/AbSViT">code</a>
+        <a href="https://github.com/bfshi/AbSViT">code</a> /
+        <a href="https://zhuanlan.zhihu.com/p/623354740">知乎</a>
 
 
         <p align="justify"> <i id="AbSViT_abs">Current attention algorithms (e.g., self-attention) are stimulus-driven and highlight all the salient objects in an image. However, intelligent agents like humans often guide their attention based on the high-level task at hand, focusing only on task-related objects. This ability of task-guided top-down attention provides task-adaptive representation and helps the model generalize to various tasks. In this paper, we consider top-down attention from a classic Analysis-by-Synthesis (AbS) perspective of vision. Prior work indicates a functional equivalence between visual attention and sparse reconstruction; we show that an AbS visual system that optimizes a similar sparse reconstruction objective modulated by a goal-directed top-down signal naturally simulates top-down attention. We further propose Analysis-by-Synthesis Vision Transformer (AbSViT), which is a top-down modulated ViT model that variationally approximates AbS, and achieves controllable top-down attention. For real-world applications, AbSViT consistently improves over baselines on Vision-Language tasks such as VQA and zero-shot retrieval where language guides the top-down attention. AbSViT can also serve as a general backbone, improving performance on classification, semantic segmentation, and model robustness.</i></p>
@@ -291,7 +317,7 @@
         <br>
         <p style="text-align:right;font-size:small;">
           I stole the template from <a href="https://yijiaweng.github.io/">Yijia Weng</a>.
-          <br> Last updated: Mar 11, 2023
+          <br> Last updated: May 26, 2023
         </p>
       </td>
     </tr>
@@ -300,6 +326,9 @@
 </tr>
 </table>
 
+<script xml:space="preserve" language="JavaScript">
+hideblock('TOAST_abs');
+</script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('AbSViT_abs');
 </script>
