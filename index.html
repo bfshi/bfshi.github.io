@@ -49,12 +49,64 @@
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr>
+      <td style="padding:20px 20px 40px 20px;width:40%;vertical-align:top">
+        <center><img src='images/s2.png' width="90%"></center>
+      </td>
+      <td style="padding:20px;width:60%;vertical-align:top">
+        <papertitle><strong>When Do We Not Need Larger Vision Models?</strong></papertitle>
+        <br>
+        <em>Baifeng Shi</em>,
+        <a href="https://robinwu218.github.io/">Ziyang Wu</a>,
+        <a href="https://bfshi.github.io/">Maolin Mao</a>,
+        <a href="https://xinw.ai/">Xin Wang</a>,
+        <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
+        <br>
+        <em>preprint</em>, 2024
+        <br>
+        <a href="javascript:toggleblock('s2_abs')">abstract</a> /
+        <a href="https://bfshi.github.io/">pdf</a> /
+        <a href="https://github.com/bfshi/scaling_on_scales">code</a> /
+
+
+        <p align="justify"> <i id="s2_abs">We find that smaller vision models (e.g., ViT-B or Vit-L) run on multiple image scales are usually better than larger models (e.g., ViT-H, ViT-G). </i></p>
+        <p></p>
+      </td>
+    </tr>
 
     <tr>
-      <td style="padding:20px;width:40%;vertical-align:middle">
+      <td style="padding:20px 20px 100px 20px;width:40%;vertical-align:top">
+        <center><img src='images/humanoid_next_token_prediction.gif' width="90%"></center>
+      </td>
+      <td style="padding:20px;width:60%;vertical-align:top">
+        <papertitle><strong>Humanoid Locomotion as Next Token Prediction</strong></papertitle>
+        <br>
+        <a href="https://people.eecs.berkeley.edu/~ilija/">Ilija Radosavovic</a>,
+        <a href="https://bikezhang106.github.io/">Bike Zhang</a>,
+        <em>Baifeng Shi</em>,
+        <a href="https://people.eecs.berkeley.edu/~jathushan/">Jathushan Rajasegaran</a>,
+        <a href="https://humanoid-next-token-prediction.github.io/">Sarthak Kamat</a>,
+        <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
+        <a href="https://hybrid-robotics.berkeley.edu/koushil/">Koushil Sreenath</a>,
+        <a href="http://people.eecs.berkeley.edu/~malik/">Jitendra Malik</a>
+        <br>
+        <em>preprint</em>, 2024
+        <br>
+        <a href="javascript:toggleblock('humanoid_next_token_prediction_abs')">abstract</a> /
+        <a href="https://arxiv.org/pdf/2402.19469.pdf">pdf</a> /
+        <a href="https://humanoid-next-token-prediction.github.io/">website</a> /
+
+
+        <p align="justify"> <i id="humanoid_next_token_prediction_abs">We formulate humanoid locomotion as a next token prediction problem. This enables learning to walk from in-the-wild data such as Youtube videos.</i></p>
+        <p></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px 20px 60px 20px;width:40%;vertical-align:top">
         <center><img src='images/RPT.gif' width="90%"></center>
       </td>
-      <td style="padding:20px;width:60%;vertical-align:middle">
+      <td style="padding:20px;width:60%;vertical-align:top">
         <papertitle><strong>Robot Learning with Sensorimotor Pre-training</strong></papertitle>
         <br>
         <a href="https://people.eecs.berkeley.edu/~ilija/">Ilija Radosavovic</a>,
@@ -79,10 +131,10 @@
     </tr>
 
     <tr>
-      <td style="padding:20px;width:40%;vertical-align:middle">
+      <td style="padding:20px;width:40%;vertical-align:top">
         <center><img src='images/TOAST.png' width="90%"></center>
       </td>
-      <td style="padding:20px;width:60%;vertical-align:middle">
+      <td style="padding:60px 20px 20px 20px;width:60%;vertical-align:top">
         <papertitle><strong>TOAST: Transfer Learning via Attention Steering</strong></papertitle>
         <br>
         <em>Baifeng Shi</em>,
@@ -98,16 +150,16 @@
         <a href="https://zhuanlan.zhihu.com/p/632301499">知乎</a>
 
 
-        <p align="justify"> <i id="TOAST_abs">We find that previous transfer learning methods (e.g., fine-tuning, LoRA, prompt tuning) fail to focus the model's attention on the features relevant to the downstream tasks. We show that by refocusing the model's attention on task-relevant features can largely improve the downstream performances.</i></p>
+        <p align="justify"> <i id="TOAST_abs">We find that previous transfer learning methods (e.g., fine-tuning, LoRA, prompt tuning) fail to focus the model's attention on the features relevant to the downstream tasks. We show that refocusing the model's attention on task-relevant features by top-down attention can largely improve the downstream performances.</i></p>
         <p></p>
       </td>
     </tr>
 
     <tr>
-      <td style="padding:20px;width:40%;vertical-align:middle">
+      <td style="padding:20px;width:40%;vertical-align:top">
         <img src='images/TD-Att.png' width="100%">
       </td>
-      <td style="padding:20px;width:60%;vertical-align:middle">
+      <td style="padding:40px 20px 20px 20px;width:60%;vertical-align:top">
         <papertitle><strong>Top-Down Visual Attention from Analysis by Synthesis</strong></papertitle>
         <br>
         <em>Baifeng Shi</em>,
@@ -125,34 +177,34 @@
         <a href="https://zhuanlan.zhihu.com/p/623354740">知乎</a>
 
 
-        <p align="justify"> <i id="AbSViT_abs">Current attention algorithms (e.g., self-attention) are stimulus-driven and highlight all the salient objects in an image. However, intelligent agents like humans often guide their attention based on the high-level task at hand, focusing only on task-related objects. This ability of task-guided top-down attention provides task-adaptive representation and helps the model generalize to various tasks. In this paper, we consider top-down attention from a classic Analysis-by-Synthesis (AbS) perspective of vision. Prior work indicates a functional equivalence between visual attention and sparse reconstruction; we show that an AbS visual system that optimizes a similar sparse reconstruction objective modulated by a goal-directed top-down signal naturally simulates top-down attention. We further propose Analysis-by-Synthesis Vision Transformer (AbSViT), which is a top-down modulated ViT model that variationally approximates AbS, and achieves controllable top-down attention. For real-world applications, AbSViT consistently improves over baselines on Vision-Language tasks such as VQA and zero-shot retrieval where language guides the top-down attention. AbSViT can also serve as a general backbone, improving performance on classification, semantic segmentation, and model robustness.</i></p>
+        <p align="justify"> <i id="AbSViT_abs">We build ViTs with the ability of top-down attention, i.e., steering its attention to specific objects when given a prompt.</i></p>
         <p></p>
       </td>
     </tr>
 
-    <tr>
-      <td style="padding:20px;width:40%;vertical-align:middle">
-        <img src='images/VARS.png' width="100%">
-      </td>
-      <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle><strong>Visual Attention Emerges from Recurrent Sparse Reconstruction</strong></papertitle>
-        <br>
-        <em>Baifeng Shi</em>,
-        <a href="http://people.csail.mit.edu/yalesong/home/">Yale Song</a>,
-        <a href="https://neelj.com/">Neel Joshi</a>,
-        <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
-        <a href="https://xinw.ai/">Xin Wang</a>
-        <br>
-        <em>ICML</em>, 2022
-        <br>
-        <a href="javascript:toggleblock('VARS_abs')">abstract</a> /
-        <a href="https://arxiv.org/abs/2204.10962">pdf</a> /
-        <a href="https://github.com/bfshi/VARS">code</a>
+<!--    <tr>-->
+<!--      <td style="padding:20px;width:40%;vertical-align:middle">-->
+<!--        <img src='images/VARS.png' width="100%">-->
+<!--      </td>-->
+<!--      <td style="padding:20px;width:60%;vertical-align:middle">-->
+<!--        <papertitle><strong>Visual Attention Emerges from Recurrent Sparse Reconstruction</strong></papertitle>-->
+<!--        <br>-->
+<!--        <em>Baifeng Shi</em>,-->
+<!--        <a href="http://people.csail.mit.edu/yalesong/home/">Yale Song</a>,-->
+<!--        <a href="https://neelj.com/">Neel Joshi</a>,-->
+<!--        <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,-->
+<!--        <a href="https://xinw.ai/">Xin Wang</a>-->
+<!--        <br>-->
+<!--        <em>ICML</em>, 2022-->
+<!--        <br>-->
+<!--        <a href="javascript:toggleblock('VARS_abs')">abstract</a> /-->
+<!--        <a href="https://arxiv.org/abs/2204.10962">pdf</a> /-->
+<!--        <a href="https://github.com/bfshi/VARS">code</a>-->
 
-        <p align="justify"> <i id="VARS_abs">Visual attention helps achieve robust perception under noise, corruption, and distribution shifts in human vision, which are areas where modern neural networks still fall short. We present VARS, Visual Attention from Recurrent Sparse reconstruction, a new attention formulation built on two prominent features of the human visual attention mechanism: recurrency and sparsity. Related features are grouped together via recurrent connections between neurons, with salient objects emerging via sparse regularization. VARS adopts an attractor network with recurrent connections that converges toward a stable pattern over time. Network layers are represented as ordinary differential equations (ODEs), formulating attention as a recurrent attractor network that equivalently optimizes the sparse reconstruction of input using a dictionary of "templates" encoding underlying patterns of data. We show that self-attention is a special case of VARS with a single-step optimization and no sparsity constraint. VARS can be readily used as a replacement for self-attention in popular vision transformers, consistently improving their robustness across various benchmarks.</i></p>
-        <p></p>
-      </td>
-    </tr>
+<!--        <p align="justify"> <i id="VARS_abs">Visual attention helps achieve robust perception under noise, corruption, and distribution shifts in human vision, which are areas where modern neural networks still fall short. We present VARS, Visual Attention from Recurrent Sparse reconstruction, a new attention formulation built on two prominent features of the human visual attention mechanism: recurrency and sparsity. Related features are grouped together via recurrent connections between neurons, with salient objects emerging via sparse regularization. VARS adopts an attractor network with recurrent connections that converges toward a stable pattern over time. Network layers are represented as ordinary differential equations (ODEs), formulating attention as a recurrent attractor network that equivalently optimizes the sparse reconstruction of input using a dictionary of "templates" encoding underlying patterns of data. We show that self-attention is a special case of VARS with a single-step optimization and no sparsity constraint. VARS can be readily used as a replacement for self-attention in popular vision transformers, consistently improving their robustness across various benchmarks.</i></p>-->
+<!--        <p></p>-->
+<!--      </td>-->
+<!--    </tr>-->
 
 <!--    <tr>-->
 <!--      <td style="padding:10px;width:40%;vertical-align:middle">-->
@@ -229,32 +281,32 @@
 <!--      </td>-->
 <!--    </tr>-->
 
-    <tr>
-      <td style="padding:10px;width:40%;vertical-align:middle">
-        <img src='images/ICML2020_InfoDrop.jpg' width="100%">
-      </td>
-      <td style="padding:20px;width:60%;vertical-align:middle">
-        <papertitle><strong>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</strong></papertitle>
-        <br>
-        <em>Baifeng Shi</em>,
-        <a href="https://zdhnarsil.github.io/">Dinghuai Zhang*</a>,
-        <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a>,
-        <a href="https://scholar.google.co.uk/citations?user=a2sHceIAAAAJ&hl=en">Zhanxing Zhu</a>,
-        <a href="http://www.muyadong.com/index.html">Yadong Mu</a>,
-        <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a>,
-        <br>
-        <em>ICML</em>, 2020
-        <br>
-        <a href="javascript:toggleblock('ICML2020_InfoDrop_abs')">abstract</a> /
-        <a href="https://arxiv.org/abs/2008.04254">pdf</a> /
-        <a href="https://github.com/bfshi/InfoDrop">code</a> /
-        <a href="https://icml.cc/virtual/2020/poster/5839">video</a> /
-        <a href="https://zhuanlan.zhihu.com/p/197929813">知乎</a>
+<!--    <tr>-->
+<!--      <td style="padding:10px;width:40%;vertical-align:middle">-->
+<!--        <img src='images/ICML2020_InfoDrop.jpg' width="100%">-->
+<!--      </td>-->
+<!--      <td style="padding:20px;width:60%;vertical-align:middle">-->
+<!--        <papertitle><strong>Informative Dropout for Robust Representation Learning: A Shape-bias Perspective</strong></papertitle>-->
+<!--        <br>-->
+<!--        <em>Baifeng Shi</em>,-->
+<!--        <a href="https://zdhnarsil.github.io/">Dinghuai Zhang*</a>,-->
+<!--        <a href="https://scholar.google.com/citations?user=NSJY12IAAAAJ&hl=en">Qi Dai</a>,-->
+<!--        <a href="https://scholar.google.co.uk/citations?user=a2sHceIAAAAJ&hl=en">Zhanxing Zhu</a>,-->
+<!--        <a href="http://www.muyadong.com/index.html">Yadong Mu</a>,-->
+<!--        <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a>,-->
+<!--        <br>-->
+<!--        <em>ICML</em>, 2020-->
+<!--        <br>-->
+<!--        <a href="javascript:toggleblock('ICML2020_InfoDrop_abs')">abstract</a> /-->
+<!--        <a href="https://arxiv.org/abs/2008.04254">pdf</a> /-->
+<!--        <a href="https://github.com/bfshi/InfoDrop">code</a> /-->
+<!--        <a href="https://icml.cc/virtual/2020/poster/5839">video</a> /-->
+<!--        <a href="https://zhuanlan.zhihu.com/p/197929813">知乎</a>-->
 
-        <p align="justify"> <i id="ICML2020_InfoDrop_abs">In this work, we attempt at improving various kinds of robustness universally by alleviating CNN’s texture bias. With inspiration from the human visual system, we propose to discriminate texture from shape based on local self-information in an image, and adopt a Dropout-like algorithm to decorrelate the model output from the local texture. We observe enhanced robustness under various scenarios (domain generalization, few-shot classification, image corruption, and adversarial perturbation).</i></p>
-        <p></p>
-      </td>
-    </tr>
+<!--        <p align="justify"> <i id="ICML2020_InfoDrop_abs">In this work, we attempt at improving various kinds of robustness universally by alleviating CNN’s texture bias. With inspiration from the human visual system, we propose to discriminate texture from shape based on local self-information in an image, and adopt a Dropout-like algorithm to decorrelate the model output from the local texture. We observe enhanced robustness under various scenarios (domain generalization, few-shot classification, image corruption, and adversarial perturbation).</i></p>-->
+<!--        <p></p>-->
+<!--      </td>-->
+<!--    </tr>-->
 
 <!--    <tr>-->
 <!--      <td style="padding:10px;width:40%;vertical-align:middle">-->
@@ -350,6 +402,12 @@
 </tr>
 </table>
 
+<script xml:space="preserve" language="JavaScript">
+hideblock('s2_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('humanoid_next_token_prediction_abs');
+</script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('RPT_abs');
 </script>
