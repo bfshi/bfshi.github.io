@@ -10,6 +10,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scaling Vision Pre-Training to 4K Resolution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <style>
         :root {
             color-scheme: light;
@@ -61,7 +63,8 @@
         }
 
         .button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
             padding: 10px 20px;
             margin: 5px;
             font-size: 1.1em;
@@ -69,6 +72,21 @@
             background-color: rgb(246, 172, 102);
             border-radius: 30px;
             text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgb(236, 162, 92);
+        }
+
+        .button .icon {
+            margin-right: 8px;
+        }
+
+        .button .icon img {
+            height: 1em;
+            width: auto;
+            vertical-align: middle;
         }
 
         .gallery-container {
@@ -736,13 +754,54 @@
             </div>
         </section>
 
-        <a href="#" class="button">Paper</a>
-        <a href="#" class="button">PS3 Code (Coming Soon)</a>
-        <a href="#" class="button">PS3 Weights (Coming Soon)</a>
-        <a href="#" class="button">VILA-HD Code (Coming Soon)</a>
-        <a href="#" class="button">VILA-HD Weights (Coming Soon)</a>
-        <a href="#" class="button">4KPro Benchmark (Coming Soon)</a>
-        <a href="#" class="button">Citation</a>
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <i class="ai ai-arxiv"></i>
+            </span>
+            <span>Paper</span>
+        </a>
+
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>PS3 Code (Coming Soon)</span>
+        </a>
+
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>VILA-HD Code (Coming Soon)</span>
+        </a>
+
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face logo">
+            </span>
+            <span>PS3 Weights (Coming Soon)</span>
+        </a>
+
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face logo">
+            </span>
+            <span>VILA-HD Weights (Coming Soon)</span>
+        </a>
+
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <i class="fas fa-tasks"></i>
+            </span>
+            <span>4KPro Benchmark (Coming Soon)</span>
+        </a>
+
+        <a href="#" class="button" target="_blank">
+            <span class="icon">
+                <i class="fas fa-quote-right"></i>
+            </span>
+            <span>Citation</span>
+        </a>
         
         
 
@@ -990,7 +1049,7 @@
         </div>
 
         <div class="description-content">
-            <h2>Localized High-Res Encoding via Top-Down Selection</h2>
+            <h2>Key Design: Localized High-Res Encoding via Top-Down Selection</h2>
             <p>
                 The key to PS3's success is the ability to selectively process high-res regions based on any text prompt.
                 This is achieved by a <strong>top-down (i.e., prompt-aware) selection mechanism</strong> that allows the model to focus on the most relevant regions for any given text prompt and 
